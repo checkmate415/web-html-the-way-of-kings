@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El Archivo de las Tormentas</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="styles/contacto.css" />
+  </head>
+  <body>
+    <header>
+      <h1>El Archivo de las Tormentas</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home </a></li>
+          <li><a href="personajes.html">Personajes</a></li>
+          <li><a class="active" href="contacto.html">Contacto</a></li>
+          <li><a href="audiovisuales.html">Audiovisuales</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contenedor-formulario">
+      <form action="">
+        <label for="nombre">Nombre:</label>
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          placeholder="Escribe aqui tu nombre"
+        />
+        <label for="apellido">Apellido:</label>
+        <input
+          type="text"
+          name="apellido"
+          id="apellido"
+          placeholder="Escribe aqui tu apellido"
+        />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Escribe aqui tu correo"
+        />
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+          <option value="default" selected>Selecciona un pais!</option>
+          <option value="colombia">Colombia</option>
+          <option value="argentina">Argentina</option>
+          <option value="canada">Canada</option>
+        </select>
+
+        <label for="comentario">Comentario</label>
+        <textarea
+          name="comentario"
+          id="comentario"
+          placeholder="Escribi un comentario"
+        >
+        </textarea>
+
+        <label for="motivo">Motivo de contacto:</label>
+        <input type="radio" id="motivo" name="motivo" />
+        <i>Saber mas sobre el archivo de las tormentas</i>
+
+        <input type="radio" id="motivo" name="motivo" />
+        <i>Interes en la pagina</i>
+
+        <input type="radio" id="motivo" name="motivo" />
+        <i>Sugerir algo</i>
+
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+
+    <footer class="footer"><p>Derechos reservados &copy;</p></footer>
+  </body>
+</html>
